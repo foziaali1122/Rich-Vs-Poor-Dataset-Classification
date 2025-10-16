@@ -1,84 +1,63 @@
-Rich vs Poor Classification
-📌 Overview
+# 💰 Rich vs Poor Classification
 
-This project explores the challenge of predicting whether an individual is Rich or Poor using a high-dimensional dataset. By analyzing demographic, educational, and socio-economic features, we apply multiple machine learning models to uncover the best approach for accurate income classification.
-
-
----
-
-
-📊 Dataset Description
-
-Rows: 22,792
-
-Columns: 16
-
-Target Variable: Predictions (Rich / Poor)
-
-Features include:
-
-Age, Education & Education-num
-
-Marital Status & Occupation
-
-Relationship Role, Gender, Race
-
-Capital Gain / Loss, Hours per Week
-
-Native Country & ID
-
-These features provide valuable insights into how personal and socio-economic factors contribute to wealth inequality.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Project-green?logo=scikitlearn)
+![Hackathon](https://img.shields.io/badge/Hackathon-Submission-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
-
-🤖 Models Applied
-
-Logistic Regression
-
-Gaussian Naive Bayes
-
-Decision Tree
-
-K-Nearest Neighbors (KNN)
-
-Support Vector Machine (SVM)
-
-Random Forest
-
+### 🎯 Objective
+Predict whether a person is **Rich** or **Poor** using demographic, education, and work-related data.
 
 ---
 
-
-
-🏆 Model Accuracy Comparison
-
-
-Model	Accuracy (%)
-
-Logistic Regression	69.09%
-
-Gaussian Naive Bayes	62.77%
-
-Decision Tree	84.93%
-
-K-Nearest Neighbors	70.84%
-
-Support Vector Machine	58.87%
-
-Random Forest ⭐	88.81%
+### 📊 Dataset Info
+- **Rows:** 22,792  **Columns:** 16  
+- **Target:** `Predictions` (`Rich` / `Poor`)  
+- **Problem Type:** Binary Classification  
+- **Imbalance Fixed Using:** SMOTE  
 
 ---
 
-
-📌 Conclusion: Random Forest outperformed all models, making it the most reliable choice for this classification task.
-
-📷 Visualizations
-
-Countplots for categorical features
-
-Scatter plots for numerical features vs target
-
-Bar & Pie charts for model accuracy comparison
+### ⚙️ Workflow
+1. Data Cleaning & Exploration  
+2. Label Encoding for categorical columns  
+3. SMOTE for balancing classes  
+4. Train-Test Split (80/20)  
+5. Trained Models:  
+   - Logistic Regression  
+   - Decision Tree  
+   - KNN  
+   - SVM  
+   - Random Forest  
 
 ---
+
+### 📈 Model Performance
+
+| Model | Accuracy |
+|--------|-----------|
+| Logistic Regression | 69.1% |
+| Decision Tree | 84.9% |
+| **Random Forest** | **88.8% ✅** |
+| KNN | 70.8% |
+| SVM | 58.8% |
+
+**🏆 Best Model:** Random Forest
+
+---
+
+### 🧰 Libraries Used
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?logo=plotly)
+![Seaborn](https://img.shields.io/badge/Seaborn-Data%20Viz-lightblue?logo=seaborn)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-yellow?logo=scikitlearn)
+![Imblearn](https://img.shields.io/badge/Imbalanced--Learn-SMOTE-red)
+
+---
+
+### 👩‍💻 Author
+**Fozia Roshan**  
+*Hackathon Project | Data Science Learner*
