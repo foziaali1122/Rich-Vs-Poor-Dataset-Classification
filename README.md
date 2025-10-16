@@ -52,12 +52,20 @@ Random Forest
 
 
 🏆 Model Accuracy Comparison
+
+
 Model	Accuracy (%)
+
 Logistic Regression	69.09%
+
 Gaussian Naive Bayes	62.77%
+
 Decision Tree	84.93%
+
 K-Nearest Neighbors	70.84%
+
 Support Vector Machine	58.87%
+
 Random Forest ⭐	88.81%
 
 ---
